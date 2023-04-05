@@ -27,6 +27,13 @@ So all API requests with vulnerable data are made from backend .
 Youtube IFrame is used to play videos. 
 
 
+<--- Scope of Improvement->
+There is a lot of Scope of Improvements. 
+1. In backend the Load on APIs can be reduced as we are sending a lot of un-necessary details.
+2. The Number of ApI calls can be reduced e.g. I have made 2 different API calls to get selectedvideolink and selectedvideodetails. That can be done using a single API also.
+3. In Frontend The components can be further divided into smaller components. Like we can use different child component for movie preview.
+So There is always a scope of improvement as I believe nothing is prefect in one go.
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
