@@ -13,7 +13,7 @@ ng serve
 
 
 /* Thought Process->
-The major part includes managing data transer between the parent and child in Angular and Routing in Angular and Server. 
+The major part includes managing data transfer between the parent and child in Angular and Routing in Angular and Server. 
 
 First way to do the assignment was to upload data on cloud like videos and posters and save their urls in mongo with other dummy details. 
 The Second way was to use available APIs like movie db.
