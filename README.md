@@ -1,6 +1,15 @@
 # VarivasAssignment
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.4.
+#Commands to run server->
+cd server
+npm install
+nodemon index.js
+// /.env file contains api key for movie.db.app.
+
+#commands to run angular
+npm install
+ng serve
 
 ## Development server
 
