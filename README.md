@@ -11,6 +11,22 @@ nodemon index.js
 npm install
 ng serve
 
+
+/* Thought Process->
+The major part includes managing data transer between the parent and child in Angular and Routing in Angular and Server. 
+
+First way to do the assignment was to upload data on cloud like videos and posters and save their urls in mongo with other dummy details. 
+The Second way was to use available APIs like movie db.
+I preferred movie db 
+{1.Reason -> Save time to upload sample data.
+2.Reason -> ElseWise i also had to create a portal to save sample data in mongo Db.
+}
+
+Then The challenge was to call APIs with security . 
+So all API requests with vulnerable data are made from backend .
+Youtube IFrame is used to play videos. 
+
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
